@@ -1,0 +1,66 @@
+.sidebar, .mobile-sidebar {
+    position: fixed;
+    min-height: 100vh;
+    max-width: 270px;
+    width: 100%;
+    background: #F7FAFC;
+    box-shadow: inset -1px 0px 0px #E3E8EE;
+    padding: 12px 20px 0px 20px;
+
+    .store-icon {
+        margin-right: 14px;
+    }
+
+    span {
+        margin-right: 10.52px;
+        font-family: SF Pro Text;
+        font-size: 16px;
+        color: #1A1F36;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .nav-link {
+        margin-top: 40.5px;
+
+        .nav-items {
+            list-style: none;
+            line-height: 17px;
+            transition: all .25s ease-in;
+
+            .sub-list {                
+                padding-left: 30px;
+
+                li {
+                    list-style: none;
+                    font-size: 14px;
+                    line-height: 17px;
+
+                    a {
+                        color: #1A1F36 !important;
+                    }
+                }
+            }
+
+            a {
+                text-decoration: none;
+
+                span {
+                    color: #1A1F36;
+                    font-family: SF Pro Text;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+
+                }
+            }
+
+        }
+
+    }
+}
