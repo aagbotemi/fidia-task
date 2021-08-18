@@ -5,24 +5,22 @@
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-#nav {
-  padding: 30px;
+body {
+  font-size: 16px;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+.sidebar {
+  min-height: 100vh;
+  max-width: 270px;
+  width: 100%;
+  background: #F7FAFC;
+  box-shadow: inset -1px 0px 0px #E3E8EE;
+  padding: 12px 20px 0px 20px;
 }
 </style>
