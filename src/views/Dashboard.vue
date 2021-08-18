@@ -37,6 +37,15 @@
         </div>
       </div>
 
+      <div>
+        <tabs>
+          <tab title="All">Hello World 1</tab>
+          <tab title="Succeeded">Hello World 2</tab>
+          <tab title="Refunded">Hello World 3</tab>
+          <tab title="Uncaptured">Hello World 4</tab>
+        </tabs>
+      </div>
+
       
 
       
@@ -50,12 +59,16 @@
 // @ is an alias to /src
 import Sidebar from '../components/Navigation/Sidebar.vue'
 import NavBar from '../components/Navigation/NavBar.vue'
+import Tab from '../components/Tab/Tab.vue'
+import Tabs from '../components/Tab/Tabs.vue'
 
 export default {
   name: 'Home',
   components: {
     Sidebar,
-    NavBar
+    NavBar,
+    Tab,
+    Tabs,
 
   }
 }
