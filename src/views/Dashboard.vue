@@ -46,10 +46,13 @@
         </tabs>
       </div>
 
-      
-
-      
-
+      <div class="footer-item d-flex align-items center justify-content-between">
+        <p class="mb-0">16 results</p>
+        <div class="d-flex align-items-center">
+          <button>Previous</button>
+          <button>Next</button>
+        </div>
+      </div>
       
     </div>
   </div>
