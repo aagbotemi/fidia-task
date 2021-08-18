@@ -1,0 +1,51 @@
+.navbar {
+    margin-left: 3.7rem;
+    min-height: 57px;
+    border-bottom: 1px solid #E3E8EE;
+    padding: 10px 20px;
+
+    .form-group {
+        display: flex;
+        position: relative;
+
+        input {
+            padding-left: 2rem ;
+            height: 36px;
+            border: 1px solid #E3E8EE;
+            border-radius: 5px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        img {
+            position: absolute;
+            top: 11px;
+            left: 10px;
+        }
+    }
+
+    div {
+        img {
+            margin-right: 1rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 804px) {
+    .navbar {
+        margin-left: 270px !important;
+        padding: 10px 40px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .navbar {
+        .form-group {
+            input {
+                width: 300px !important;
+            }
+        }
+    }
+}
