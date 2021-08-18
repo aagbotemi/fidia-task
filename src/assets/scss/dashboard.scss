@@ -1,0 +1,88 @@
+.dashboard {
+    margin-left:3.7rem;
+    padding: 12px 30px 10px 20px;
+
+    .dashboard-header {
+        margin-bottom: 20px;
+        h1 {
+        color: #1A1F36;
+        font-family: SF Pro Display, 'san-serif';
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0em;
+        }
+
+        button {
+        border: 0;
+        background: #FFFFFF;
+        /* Secondary button shadow */
+        box-shadow: 0px 2px 5px rgba(60, 66, 87, 0.08), 0px 0px 0px 1px rgba(60, 66, 87, 0.16), 0px 1px 1px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        padding: 6px 8px;
+        color: #3C4257;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 500;
+
+        &:last-child {
+            background: #5469D4;
+            color: #FFFFFF;
+        }
+
+        &:nth-child(2) {
+            margin: 0px 8px;
+        }
+
+        img {
+            width: 12px;
+            height: 12px;
+            margin-right: 10px;
+        }
+        }
+    }
+
+    .footer-item {
+        margin: 26px 0px 33px;
+
+        p {
+        font-family: SF Pro Text;
+        font-size: 14px;
+        line-height: 17px;
+        color: #3C4257;
+        }
+
+        div {
+        button {
+            background: #FFFFFF;
+            opacity: 0.5;
+            box-shadow: 0px 2px 5px rgba(60, 66, 87, 0.08), 0px 0px 0px 1px rgba(60, 66, 87, 0.16), 0px 1px 1px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+            padding: 6px 8px;
+
+            font-family: SF Pro Text;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #3C4257;
+            border: 0;
+
+            
+            &:nth-child(2) {
+            margin-left: 8px;
+            opacity: 1;
+            }
+        
+        }
+        }
+    }
+}
+
+@media only screen and (min-width: 804px) {
+    .dashboard {
+        margin-left:270px !important;
+        padding: 32px 54px 27px 40px;
+    }
+}
