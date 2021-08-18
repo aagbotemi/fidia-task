@@ -14,11 +14,11 @@
                     alt="home icon" width="16px"
                     imageClass="store-icon"
                     listItemClass="nav-items"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                 />
 
                 <li @click="isOpen = !isOpen"  :class="{'my-4': isOpen}" class="nav-items my-2">
-                    <router-link to="/">
+                    <router-link to="/dashboard">
                         <img v-if="isOpen" src="../../assets/image/payment.svg" 
                             width="16px" class="store-icon" alt="Payments icon" 
                         /> 
@@ -30,37 +30,33 @@
                     <div :class="[ isOpen ? 'show' : 'hide' ]">
                         <ul class="sub-list">
                             <li class="mt-3 mb-2">
-                                <router-link to="/">Reviews</router-link>
+                                <router-link to="/dashboard">Reviews</router-link>
                             </li>
                             <li class="mb-2">
-                                <router-link to="/">Disputed</router-link>
+                                <router-link to="/dashboard">Disputed</router-link>
                             </li>
                             <li class="mb-2">
-                                <router-link to="/">Top-ups</router-link>
+                                <router-link to="/dashboard">Top-ups</router-link>
                             </li>
                             <li class="mb-2">
-                                <router-link to="/">Collected fees</router-link>
+                                <router-link to="/dashboard">Collected fees</router-link>
                             </li>
                             <li class="mb-2">
-                                <router-link to="/">Transfers</router-link>
+                                <router-link to="/dashboard">Transfers</router-link>
                             </li>
                             <li class="mb-2">
-                                <router-link to="/">Payouts</router-link>
+                                <router-link to="/dashboard">Payouts</router-link>
                             </li>
                             <li>
-                                <router-link to="/">All transactions</router-link>
+                                <router-link to="/dashboard">All transactions</router-link>
                             </li>
                         </ul>
                     </div>
                 </li>
 
-                
-
-                
-                
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="balances.svg"
                     alt="Balances icon" width="16px"
                     imageClass="store-icon"
@@ -69,7 +65,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="customers.svg"
                     alt="Customers icon" width="16px"
                     imageClass="store-icon"
@@ -78,7 +74,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="connected-account.svg"
                     alt="Connected accounts icon" width="16px"
                     imageClass="store-icon"
@@ -87,7 +83,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="products.svg"
                     alt="Products icon" width="16px"
                     imageClass="store-icon"
@@ -96,7 +92,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-3"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="reports.svg"
                     alt="Reports icon" width="16px"
                     imageClass="store-icon"
@@ -105,7 +101,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="developers.svg"
                     alt="Developers icon" width="16px"
                     imageClass="store-icon"
@@ -114,7 +110,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="toggle-off.svg"
                     alt="View test data icon" width="16px"
                     imageClass="store-icon"
@@ -123,7 +119,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="settings.svg"
                     alt="Settings icon" width="16px"
                     imageClass="store-icon"
@@ -143,11 +139,11 @@
                     alt="home icon" width="20px"
                     imageClass="store-icon"
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                 />
 
                 <li class="nav-items mb-2">
-                    <router-link to="/">
+                    <router-link to="/dashboard">
                         <img src="../../assets/image/developers.svg" 
                             width="20px" class="store-icon" alt="Payments icon" 
                         /> 
@@ -156,7 +152,7 @@
 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="balances.svg"
                     alt="Balances icon" width="20px"
                     imageClass="store-icon"
@@ -164,7 +160,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="customers.svg"
                     alt="Customers icon" width="20px"
                     imageClass="store-icon"
@@ -172,7 +168,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="connected-account.svg"
                     alt="Connected accounts icon" width="20px"
                     imageClass="store-icon"
@@ -180,7 +176,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="products.svg"
                     alt="Products icon" width="20px"
                     imageClass="store-icon"
@@ -188,7 +184,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="reports.svg"
                     alt="Reports icon" width="20px"
                     imageClass="store-icon"
@@ -196,7 +192,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="developers.svg"
                     alt="Developers icon" width="20px"
                     imageClass="store-icon"
@@ -204,7 +200,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items mb-2"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="toggle-off.svg"
                     alt="View test data icon" width="20px"
                     imageClass="store-icon"
@@ -212,7 +208,7 @@
                 
                 <SidebarLinks 
                     listItemClass="nav-items"
-                    linkUrl="/"
+                    linkUrl="/dashboard"
                     imageUrl="settings.svg"
                     alt="Settings icon" width="20px"
                     imageClass="store-icon"
